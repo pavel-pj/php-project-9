@@ -41,11 +41,10 @@ $app->add(MethodOverrideMiddleware::class);
 $app->get('/', function ($request, $response) {
 
     $params = [
-       'users'=>[]
+       'users' => []
     ];
 
     return $this->get('renderer')->render($response, 'index.phtml', $params);
 }) ;
 
 $app->run();
- 
