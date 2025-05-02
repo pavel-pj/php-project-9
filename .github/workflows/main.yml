@@ -19,6 +19,8 @@ jobs:
       - name: Install
         # Install project
         run: make install
+      - name: Install PHP_CodeSniffer globally
+        run: composer global require squizlabs/php_codesniffer
       - name: Run linter
         # Run Linter
         run: make lint
