@@ -4,8 +4,8 @@ namespace Hexlet\Code;
 
 class Fruct
 {
-             public function create()
-      {
+    public function create()
+    {
         return "Fooo";
     }
 }

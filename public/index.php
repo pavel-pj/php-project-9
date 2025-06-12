@@ -12,10 +12,8 @@ use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 use Slim\Exception\HttpExceptionInterface;
 use Slim\Middleware\MethodOverrideMiddleware;
- 
-// Старт PHP сессии
-session_start();
 
+session_start();
 
 $container = new Container();
 // Настройка настроек приложения
